@@ -1,0 +1,656 @@
+{
+  "description": "18 actual native browser-agent trials; reasoning, credentials and local profile paths omitted",
+  "trials": [
+    {
+      "trial": "available-1",
+      "candidate": "baseline",
+      "agent_success": true,
+      "final_result": {
+        "rows": [
+          {
+            "id": "A-104",
+            "value": "Juniper"
+          },
+          {
+            "id": "B-209",
+            "value": "Cobalt"
+          }
+        ]
+      },
+      "observed_page_text": "Records\nID\tValue\nA-104\tJuniper\nB-209\tCobalt",
+      "raw_actions": [
+        [
+          {
+            "click": {
+              "index": 11
+            }
+          }
+        ],
+        [
+          {
+            "done": {
+              "data": {
+                "rows": [
+                  {
+                    "id": "A-104",
+                    "value": "Juniper"
+                  },
+                  {
+                    "id": "B-209",
+                    "value": "Cobalt"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      ],
+      "base_commit": "4cbe921673b48a488f5415d9159249afd12a625b",
+      "runner_sha256": "97677e1a94714750d10344a629a90b89ae85e99ca6e91b3b8ed268d7bfa63b67"
+    },
+    {
+      "trial": "available-2",
+      "candidate": "baseline",
+      "agent_success": true,
+      "final_result": {
+        "rows": [
+          {
+            "id": "A-104",
+            "value": "Juniper"
+          },
+          {
+            "id": "B-209",
+            "value": "Cobalt"
+          }
+        ]
+      },
+      "observed_page_text": "Records\nID\tValue\nA-104\tJuniper\nB-209\tCobalt",
+      "raw_actions": [
+        [
+          {
+            "click": {
+              "index": 11
+            }
+          }
+        ],
+        [
+          {
+            "done": {
+              "data": {
+                "rows": [
+                  {
+                    "id": "A-104",
+                    "value": "Juniper"
+                  },
+                  {
+                    "id": "B-209",
+                    "value": "Cobalt"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      ],
+      "base_commit": "4cbe921673b48a488f5415d9159249afd12a625b",
+      "runner_sha256": "97677e1a94714750d10344a629a90b89ae85e99ca6e91b3b8ed268d7bfa63b67"
+    },
+    {
+      "trial": "available-3",
+      "candidate": "baseline",
+      "agent_success": true,
+      "final_result": {
+        "rows": [
+          {
+            "id": "A-104",
+            "value": "Juniper"
+          },
+          {
+            "id": "B-209",
+            "value": "Cobalt"
+          }
+        ]
+      },
+      "observed_page_text": "Records\nID\tValue\nA-104\tJuniper\nB-209\tCobalt",
+      "raw_actions": [
+        [
+          {
+            "click": {
+              "index": 11
+            }
+          }
+        ],
+        [
+          {
+            "done": {
+              "data": {
+                "rows": [
+                  {
+                    "id": "A-104",
+                    "value": "Juniper"
+                  },
+                  {
+                    "id": "B-209",
+                    "value": "Cobalt"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      ],
+      "base_commit": "4cbe921673b48a488f5415d9159249afd12a625b",
+      "runner_sha256": "97677e1a94714750d10344a629a90b89ae85e99ca6e91b3b8ed268d7bfa63b67"
+    },
+    {
+      "trial": "nested_unavailable-1",
+      "candidate": "baseline",
+      "agent_success": true,
+      "final_result": {
+        "rows": [],
+        "success": false
+      },
+      "observed_page_text": "Access denied\n\nYour account has no permission to view these records. No records are available. Contact the account administrator to request access.",
+      "raw_actions": [
+        [
+          {
+            "click": {
+              "index": 13
+            }
+          }
+        ],
+        [
+          {
+            "done": {
+              "data": {
+                "rows": [],
+                "success": false
+              }
+            }
+          }
+        ]
+      ],
+      "base_commit": "4cbe921673b48a488f5415d9159249afd12a625b",
+      "runner_sha256": "97677e1a94714750d10344a629a90b89ae85e99ca6e91b3b8ed268d7bfa63b67"
+    },
+    {
+      "trial": "nested_unavailable-2",
+      "candidate": "baseline",
+      "agent_success": true,
+      "final_result": {
+        "rows": [],
+        "success": false
+      },
+      "observed_page_text": "Access denied\n\nYour account has no permission to view these records. No records are available. Contact the account administrator to request access.",
+      "raw_actions": [
+        [
+          {
+            "click": {
+              "index": 11
+            }
+          }
+        ],
+        [
+          {
+            "done": {
+              "data": {
+                "rows": [],
+                "success": false
+              }
+            }
+          }
+        ]
+      ],
+      "base_commit": "4cbe921673b48a488f5415d9159249afd12a625b",
+      "runner_sha256": "97677e1a94714750d10344a629a90b89ae85e99ca6e91b3b8ed268d7bfa63b67"
+    },
+    {
+      "trial": "nested_unavailable-3",
+      "candidate": "baseline",
+      "agent_success": true,
+      "final_result": {
+        "rows": [],
+        "success": false
+      },
+      "observed_page_text": "Access denied\n\nYour account has no permission to view these records. No records are available. Contact the account administrator to request access.",
+      "raw_actions": [
+        [
+          {
+            "click": {
+              "index": 11
+            }
+          }
+        ],
+        [
+          {
+            "done": {
+              "data": {
+                "rows": [],
+                "success": false
+              }
+            }
+          }
+        ]
+      ],
+      "base_commit": "4cbe921673b48a488f5415d9159249afd12a625b",
+      "runner_sha256": "97677e1a94714750d10344a629a90b89ae85e99ca6e91b3b8ed268d7bfa63b67"
+    },
+    {
+      "trial": "unavailable-1",
+      "candidate": "baseline",
+      "agent_success": true,
+      "final_result": {
+        "rows": []
+      },
+      "observed_page_text": "Access denied\n\nYour account has no permission to view these records. No records are available. Contact the account administrator to request access.",
+      "raw_actions": [
+        [
+          {
+            "click": {
+              "index": 11
+            }
+          }
+        ],
+        [
+          {
+            "done": {
+              "data": {
+                "rows": []
+              }
+            }
+          }
+        ]
+      ],
+      "base_commit": "4cbe921673b48a488f5415d9159249afd12a625b",
+      "runner_sha256": "97677e1a94714750d10344a629a90b89ae85e99ca6e91b3b8ed268d7bfa63b67"
+    },
+    {
+      "trial": "unavailable-2",
+      "candidate": "baseline",
+      "agent_success": true,
+      "final_result": {
+        "rows": []
+      },
+      "observed_page_text": "Access denied\n\nYour account has no permission to view these records. No records are available. Contact the account administrator to request access.",
+      "raw_actions": [
+        [
+          {
+            "click": {
+              "index": 11
+            }
+          }
+        ],
+        [
+          {
+            "done": {
+              "data": {
+                "rows": []
+              }
+            }
+          }
+        ]
+      ],
+      "base_commit": "4cbe921673b48a488f5415d9159249afd12a625b",
+      "runner_sha256": "97677e1a94714750d10344a629a90b89ae85e99ca6e91b3b8ed268d7bfa63b67"
+    },
+    {
+      "trial": "unavailable-3",
+      "candidate": "baseline",
+      "agent_success": true,
+      "final_result": {
+        "rows": []
+      },
+      "observed_page_text": "Access denied\n\nYour account has no permission to view these records. No records are available. Contact the account administrator to request access.",
+      "raw_actions": [
+        [
+          {
+            "click": {
+              "index": 11
+            }
+          }
+        ],
+        [
+          {
+            "done": {
+              "data": {
+                "rows": []
+              }
+            }
+          }
+        ]
+      ],
+      "base_commit": "4cbe921673b48a488f5415d9159249afd12a625b",
+      "runner_sha256": "97677e1a94714750d10344a629a90b89ae85e99ca6e91b3b8ed268d7bfa63b67"
+    },
+    {
+      "trial": "available-1",
+      "candidate": "patched",
+      "agent_success": true,
+      "final_result": {
+        "rows": [
+          {
+            "id": "A-104",
+            "value": "Juniper"
+          },
+          {
+            "id": "B-209",
+            "value": "Cobalt"
+          }
+        ]
+      },
+      "observed_page_text": "Records\nID\tValue\nA-104\tJuniper\nB-209\tCobalt",
+      "raw_actions": [
+        [
+          {
+            "click": {
+              "index": 11
+            }
+          }
+        ],
+        [
+          {
+            "done": {
+              "task_success": true,
+              "data": {
+                "rows": [
+                  {
+                    "id": "A-104",
+                    "value": "Juniper"
+                  },
+                  {
+                    "id": "B-209",
+                    "value": "Cobalt"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      ],
+      "base_commit": "4cbe921673b48a488f5415d9159249afd12a625b",
+      "runner_sha256": "97677e1a94714750d10344a629a90b89ae85e99ca6e91b3b8ed268d7bfa63b67"
+    },
+    {
+      "trial": "available-2",
+      "candidate": "patched",
+      "agent_success": true,
+      "final_result": {
+        "rows": [
+          {
+            "id": "A-104",
+            "value": "Juniper"
+          },
+          {
+            "id": "B-209",
+            "value": "Cobalt"
+          }
+        ]
+      },
+      "observed_page_text": "Records\nID\tValue\nA-104\tJuniper\nB-209\tCobalt",
+      "raw_actions": [
+        [
+          {
+            "click": {
+              "index": 11
+            }
+          }
+        ],
+        [
+          {
+            "done": {
+              "task_success": true,
+              "data": {
+                "rows": [
+                  {
+                    "id": "A-104",
+                    "value": "Juniper"
+                  },
+                  {
+                    "id": "B-209",
+                    "value": "Cobalt"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      ],
+      "base_commit": "4cbe921673b48a488f5415d9159249afd12a625b",
+      "runner_sha256": "97677e1a94714750d10344a629a90b89ae85e99ca6e91b3b8ed268d7bfa63b67"
+    },
+    {
+      "trial": "available-3",
+      "candidate": "patched",
+      "agent_success": true,
+      "final_result": {
+        "rows": [
+          {
+            "id": "A-104",
+            "value": "Juniper"
+          },
+          {
+            "id": "B-209",
+            "value": "Cobalt"
+          }
+        ]
+      },
+      "observed_page_text": "Records\nID\tValue\nA-104\tJuniper\nB-209\tCobalt",
+      "raw_actions": [
+        [
+          {
+            "click": {
+              "index": 11
+            }
+          }
+        ],
+        [
+          {
+            "done": {
+              "task_success": true,
+              "data": {
+                "rows": [
+                  {
+                    "id": "A-104",
+                    "value": "Juniper"
+                  },
+                  {
+                    "id": "B-209",
+                    "value": "Cobalt"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      ],
+      "base_commit": "4cbe921673b48a488f5415d9159249afd12a625b",
+      "runner_sha256": "97677e1a94714750d10344a629a90b89ae85e99ca6e91b3b8ed268d7bfa63b67"
+    },
+    {
+      "trial": "nested_unavailable-1",
+      "candidate": "patched",
+      "agent_success": false,
+      "final_result": {
+        "rows": [],
+        "success": false
+      },
+      "observed_page_text": "Access denied\n\nYour account has no permission to view these records. No records are available. Contact the account administrator to request access.",
+      "raw_actions": [
+        [
+          {
+            "click": {
+              "index": 12
+            }
+          }
+        ],
+        [
+          {
+            "done": {
+              "task_success": false,
+              "data": {
+                "rows": [],
+                "success": false
+              }
+            }
+          }
+        ]
+      ],
+      "base_commit": "4cbe921673b48a488f5415d9159249afd12a625b",
+      "runner_sha256": "97677e1a94714750d10344a629a90b89ae85e99ca6e91b3b8ed268d7bfa63b67"
+    },
+    {
+      "trial": "nested_unavailable-2",
+      "candidate": "patched",
+      "agent_success": false,
+      "final_result": {
+        "rows": [],
+        "success": false
+      },
+      "observed_page_text": "Access denied\n\nYour account has no permission to view these records. No records are available. Contact the account administrator to request access.",
+      "raw_actions": [
+        [
+          {
+            "click": {
+              "index": 11
+            }
+          }
+        ],
+        [
+          {
+            "done": {
+              "task_success": false,
+              "data": {
+                "rows": [],
+                "success": false
+              }
+            }
+          }
+        ]
+      ],
+      "base_commit": "4cbe921673b48a488f5415d9159249afd12a625b",
+      "runner_sha256": "97677e1a94714750d10344a629a90b89ae85e99ca6e91b3b8ed268d7bfa63b67"
+    },
+    {
+      "trial": "nested_unavailable-3",
+      "candidate": "patched",
+      "agent_success": false,
+      "final_result": {
+        "rows": [],
+        "success": false
+      },
+      "observed_page_text": "Access denied\n\nYour account has no permission to view these records. No records are available. Contact the account administrator to request access.",
+      "raw_actions": [
+        [
+          {
+            "click": {
+              "index": 11
+            }
+          }
+        ],
+        [
+          {
+            "done": {
+              "task_success": false,
+              "data": {
+                "rows": [],
+                "success": false
+              }
+            }
+          }
+        ]
+      ],
+      "base_commit": "4cbe921673b48a488f5415d9159249afd12a625b",
+      "runner_sha256": "97677e1a94714750d10344a629a90b89ae85e99ca6e91b3b8ed268d7bfa63b67"
+    },
+    {
+      "trial": "unavailable-1",
+      "candidate": "patched",
+      "agent_success": false,
+      "final_result": {
+        "rows": []
+      },
+      "observed_page_text": "Access denied\n\nYour account has no permission to view these records. No records are available. Contact the account administrator to request access.",
+      "raw_actions": [
+        [
+          {
+            "click": {
+              "index": 11
+            }
+          }
+        ],
+        [
+          {
+            "done": {
+              "task_success": false,
+              "data": {
+                "rows": []
+              }
+            }
+          }
+        ]
+      ],
+      "base_commit": "4cbe921673b48a488f5415d9159249afd12a625b",
+      "runner_sha256": "97677e1a94714750d10344a629a90b89ae85e99ca6e91b3b8ed268d7bfa63b67"
+    },
+    {
+      "trial": "unavailable-2",
+      "candidate": "patched",
+      "agent_success": false,
+      "final_result": {
+        "rows": []
+      },
+      "observed_page_text": "Access denied\n\nYour account has no permission to view these records. No records are available. Contact the account administrator to request access.",
+      "raw_actions": [
+        [
+          {
+            "click": {
+              "index": 11
+            }
+          }
+        ],
+        [
+          {
+            "done": {
+              "task_success": false,
+              "data": {
+                "rows": []
+              }
+            }
+          }
+        ]
+      ],
+      "base_commit": "4cbe921673b48a488f5415d9159249afd12a625b",
+      "runner_sha256": "97677e1a94714750d10344a629a90b89ae85e99ca6e91b3b8ed268d7bfa63b67"
+    },
+    {
+      "trial": "unavailable-3",
+      "candidate": "patched",
+      "agent_success": false,
+      "final_result": {
+        "rows": []
+      },
+      "observed_page_text": "Access denied\n\nYour account has no permission to view these records. No records are available. Contact the account administrator to request access.",
+      "raw_actions": [
+        [
+          {
+            "click": {
+              "index": 11
+            }
+          }
+        ],
+        [
+          {
+            "done": {
+              "task_success": false,
+              "data": {
+                "rows": []
+              }
+            }
+          }
+        ]
+      ],
+      "base_commit": "4cbe921673b48a488f5415d9159249afd12a625b",
+      "runner_sha256": "97677e1a94714750d10344a629a90b89ae85e99ca6e91b3b8ed268d7bfa63b67"
+    }
+  ]
+}
